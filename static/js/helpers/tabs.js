@@ -33,7 +33,7 @@
             $tabButtons.removeClass('active');
 
             if (tabId in tabsData) {
-                tabsData[tabId].content.show();
+                tabsData[tabId].content.fadeIn();
                 tabsData[tabId].button.addClass('active');
 
                 if (tabsData[tabId].activated === false) {

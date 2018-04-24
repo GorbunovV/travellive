@@ -76,6 +76,20 @@
           }
         }]
       });
+
+      $('.tour-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        fade: true,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            arrows: false
+          }
+        }]
+      });
     },
 
     accord() {
@@ -185,9 +199,9 @@
         autoplaySpeed: 2000,
         arrows: false,
         responsive: [{
-          breakpoint: 480,
+          breakpoint: 600,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1
           }
         }]
